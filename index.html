@@ -126,23 +126,28 @@
 				<strong class="titleSection">Contato</strong>
 			</div>
 			<div class="col-2" id="listSkills">
-				<form action="" id="formContact">
+				<form action="https://formspree.io/guilhermedev@hotmail.com" method="POST" id="formContact">
 					<div>
 						<label for="name">Nome :</label>
 						<input type="text" name="name" placeholder="Digite seu nome nome">
 					</div>
 					<div>
 						<label for="email">E-Mail :</label>
-						<input type="text" name="email" placeholder="Digite seu email">
+						<input type="_replyto" name="email" placeholder="Digite seu email">
 					</div>
 					<div>
 						<label for="tel">Telefone :</label>
 						<input type="tel" name="tel" placeholder="Digite seu telefone">
 					</div>
 					<div>
+						<label for="tel">Assunto :</label>
+						<input type="text" name="_subject" placeholder="Digite o assunto">
+					</div>
+					<div>
 						<label for="msg">Mensagem :</label>
 						<textarea name="msg" id="" cols="30" rows="10" placeholder="Digite sua mensagem ou sua dúvida"></textarea>
 					</div>
+					<input type="text" name="_gotcha" style="display:none" />
 					<div>
 						<input type="submit" value="Enviar">
 					</div>
