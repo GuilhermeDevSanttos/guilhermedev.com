@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Guilherme Dev - Programador Web, Back-End, Front-End</title>
+	<link rel="icon" type="image/png" href="img/logo.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style970.css">
+	<link rel="stylesheet" href="css/style700.css">
+	<link rel="stylesheet" href="node_modules/izimodal/css/iziModal.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="lineHeader"></div>
+	<div class="menu">
+		<ul>
+			<li style="border: none;" id="hide-menu"><a href="">X</a></li>
+			<li><a href="">Home</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Habilidades</a></li>
+			<li><a href="">Portfólio</a></li>
+			<li><a href="">Contato</a></li>
+		</ul>
+	</div>
+	<header>
+		<div id="logo">
+			<img src="img/logo.png" alt="logo guilherme dev">
+			<div class="siteName">Guilherme Dev</div>
+		</div>
+		<div id="links">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Blog</a></li>
+				<li><a href="">Habilidades</a></li>
+				<li><a href="">Portfólio</a></li>
+				<li><a href="">Contato</a></li>
+			</ul>
+		</div>
+		<div id="iconMenu">
+			<a href="" id="open-menu">
+				<i class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+			</a>
+		</div>
+	</header>
+	<main>
+		<div id="bannerHeader">
+			<div id="fotoProfileBanner">
+				<img src="img/photo_profile_banner_top.jpg" alt="foto guilherme">
+			</div>
+			<div id="textBanner">
+				Olá, me chamo Guilherme Santos <br> Sou Desenvolvedor <div id="type"></div>
+			</div>
+		</div>
+		<section id="skills" style="background: #ee764f;">
+			<div class="col-2">
+				<img src="img/skills.png" class="imgSection" alt="icone maleta de trabalho com uma roda dentada desenhada">
+				<strong class="titleSection">Habilidades</strong>
+			</div>
+			<div class="col-2" id="listSkills">
+				<ul>
+					<li>
+						<div class="iconImg">
+							<img src="img/php-icon.png" alt="icone php">
+						</div>
+						<div class="percent">
+							<div class="percentBar" style="width: 80%; background: : red;">PHP 80%</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconImg">
+							<img src="img/html5-icon.png" alt="icone php">
+						</div>
+						<div class="percent">
+							<div class="percentBar" style="width: 90%; background: : red;">HTML 90%</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconImg">
+							<img src="img/css-icon.png" alt="icone php">
+						</div>
+						<div class="percent">
+							<div class="percentBar" style="width: 80%; background: : red;">CSS 80%</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconImg">
+							<img src="img/js-icon.png" alt="icone php">
+						</div>
+						<div class="percent">
+							<div class="percentBar" style="width: 60%; background: : red;">Javascript 60%</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconImg">
+							<img src="img/laravel-icon.png" alt="icone php">
+						</div>
+						<div class="percent">
+							<div class="percentBar" style="width: 70%; background: : red;">Laravel 70%</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconImg">
+							<img src="img/vuejs-icon.png" alt="icone php">
+						</div>
+						<div class="percent">
+							<div class="percentBar" style="width: 40%; background: : red;">Vue.js 40%</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="portfolio" style="background: url('img/back.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+			<div>
+				<img src="img/portfolio.png" class="imgSection" alt="lâmpada flutuante contendo sob si uma mão">
+				<strong class="titleSection" style="color: #000;">Portfólio</strong>
+			</div>
+			<ul id="portfolioList">
+				<li><a href=""><img src="img/port1.png" alt=""></a></li>
+				<li><a href=""><img src="img/port1.png" alt=""></a></li>
+			</ul>
+		</section>
+		<section id="skills" style="background: #ee764f; padding: 2% 0;">
+			<div class="col-2" id="contact-top">
+				<img src="img/chat.png" class="imgSection" alt="icone maleta de trabalho com uma roda dentada desenhada">
+				<strong class="titleSection">Contato</strong>
+			</div>
+			<div class="col-2" id="listSkills">
+				<form action="" id="formContact">
+					<div>
+						<label for="name">Nome :</label>
+						<input type="text" name="name" placeholder="Digite seu nome nome">
+					</div>
+					<div>
+						<label for="email">E-Mail :</label>
+						<input type="text" name="email" placeholder="Digite seu email">
+					</div>
+					<div>
+						<label for="tel">Telefone :</label>
+						<input type="tel" name="tel" placeholder="Digite seu telefone">
+					</div>
+					<div>
+						<label for="msg">Mensagem :</label>
+						<textarea name="msg" id="" cols="30" rows="10" placeholder="Digite sua mensagem ou sua dúvida"></textarea>
+					</div>
+					<div>
+						<input type="submit" value="Enviar">
+					</div>
+				</form>
+			</div>
+			<div class="col-2"  id="contact-bottom">
+				<img src="img/chat.png" class="imgSection" alt="icone maleta de trabalho com uma roda dentada desenhada">
+				<strong class="titleSection">Contato</strong>
+			</div>
+			<section id="map">
+				<iframe id="map" 
+				  frameborder="0" style="border:0"
+				  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAAXbdxP6qU4qdclb_VMg88gKyX8MbY9S0
+				    &q=Sergipe+Barra+dos+Coqueiros+Livre+Sistemas" allowfullscreen>
+				</iframe>
+			</section>
+		</section>
+		<footer>
+			<div class="contact">
+				<div class="title">
+					Contato
+				</div>
+
+				<i class="fa fa-envelope-o"></i> guilhermedev@hotmail.com <br>
+				<i class="fa fa-phone"></i> 79 9 96732426
+			</div>
+			<div class="social">
+				<div class="title">
+					Redes Sociais
+				</div>
+				<a href=""><i class="fa fa-facebook-official"></i></a> 
+				<a href=""><i class="fa fa-twitter"></i></a> 
+				<a href=""><i class="fa fa-google-plus"></i></a>
+			</div>
+			<br>
+			<div>
+				<strong>
+					<img src="img/logo.png" width="30px" height="30px"> <br>
+					Guilherme Santos &copy; - 2017
+				</strong>
+			</div>
+		</footer>
+	</main>
+	<script src="node_modules/jquery/dist/jquery.js"></script> 
+	<script src="node_modules/typeit/dist/typeit.js"></script>
+	<script src="node_modules/izimodal/js/iziModal.min.js" type="text/javascript"></script>	
+	<script>
+		$(document).ready(function(){
+			$('#type').typeIt({
+				strings: ["Web", "Laravel", "WordPress", "De Ecommerces"],
+	     		speed: 200,
+	     		breakLines: false,
+	     		autoStart: false,
+	     		loop: true
+			});
+
+			$('#open-menu').click(function(e){
+				e.preventDefault();
+				$('.menu').slideDown();
+			});
+			$('#hide-menu').click(function(e){
+				e.preventDefault();
+				$('.menu').slideUp();
+			});
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Nunito|Nunito+Sans');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.lineHeader{ width: 100%; height: 1%; background: #66C2BE; }
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: #66C2BE;;
+}
+
+#type{
+	display: inline;
+	color: #EA5626;
+	font-weight: bold;
+}
+
+
+header{
+	padding: 2% 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+header div{
+	width: 50%;
+}
+header #logo{
+	text-align: center;
+}
+header #logo img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100;
+	height: 50px;
+}
+header #logo .siteName{
+	vertical-align: middle;
+	display: inline-block;
+	font-family: "Bungee Shade", "sans-serif";
+	font-size: 1.4em;
+}
+
+
+header #links{
+	text-align: right;
+	padding: 0 5%;
+}
+header #links ul{
+	list-style: none;
+}
+header #links ul li{
+	display: inline-block;
+	margin: 0 1%;
+	font-weight: bold;
+}
+
+header #iconMenu{
+	display: none;
+}
+
+#contact-top{
+	display: none !important;
+}
+
+main #bannerHeader{
+	background: url('../img/bannerHeader.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	padding: 5%;
+	font-family: 'Nunito', sans-serif;
+	font-size: 2.5em;
+	color: #fff;
+	position:relative;
+}
+main #bannerHeader #fotoProfileBanner img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+main #bannerHeader #textBanner{
+	font-size: .9em;
+}
+main section{
+	padding: 5% 0;
+	margin: 1% 0;
+	box-shadow: 2px 2px 10px gainsboro;
+}
+section .col-2{
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+}
+#skills .col-2{
+	padding: 0 auto;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+section .iconSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+section .titleSection{
+	text-align: center;
+	display: block;
+	font-size: 2em;
+	font-family: 'Bungee Shade', cursive;
+}
+
+#skills .col-2#listSkills ul li{
+	list-style: none;
+	margin: 1% 0;
+}
+#skills .col-2#listSkills ul li .percentBar{
+	display: inline-block;
+	height: 20px;
+	background: #66C2BE;
+	color: #EE7A54;
+	font-weight: bold;
+	border-radius: 5px;
+	text-align: center;
+}
+#skills .col-2#listSkills ul li .iconImg{
+	width: 30%;
+	vertical-align: middle;
+	display: inline-block;
+}
+#skills .col-2#listSkills ul li .percent{
+	text-align: left;
+	width: 69%;
+	display: inline-block;
+}
+#skills .col-2#listSkills ul li .iconImg img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	display: inline-block;
+}
+#portfolio{
+	text-align: center;
+}
+#portfolio .iconImg{
+	width: 100px;
+	height: 100px;
+}
+#portfolio #portfolioList{
+	width: 100%;
+	margin-top: 2%;
+}
+#portfolio #portfolioList li{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	margin: 1%;
+}
+#portfolio #portfolioList li:hover{
+	box-shadow: 2px 2px 10px gainsboro;
+	animation-delay: 2000;
+	transition-delay: 2000;
+}
+#portfolio #portfolioList li a img{
+	width: 100%;
+	height: 100%;
+
+}
+#portfolio #portfolioList li a img:hover{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2)
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-webkit-transition: .5s all ease; /* É para pega no Chrome e Safira */
+	-moz-transition: .5s all ease; /* Firefox */
+	-o-transition: .5s all ease; /* Opera */
+}
+#formContact{
+	padding: 0 10%;
+}
+#formContact div{
+	margin: 1% 0;
+}
+#formContact label{
+	width: 100%;
+	display: block;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#formContact input, textarea{
+	padding: 0 2%;
+	width: 100%;
+	display: block;
+	text-align: left;
+	height: 30px;
+	border: 1px solid gainsboro;
+	border-radius: 3px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bold;
+}
+#formContact textarea{
+	height: 50px;
+}
+#formContact input[type='submit']{
+	text-align: center;
+	background: #66C2BE;
+	font-weight: bold;
+	font-size: 1em;
+	border: none;
+}
+section #map{
+	padding: 0 !important;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+footer div{
+	width: 50%;
+	padding: 2% 0;
+	vertical-align: top;
+}
+footer div .title{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+footer div.contact{
+	text-align: center;
+}
+footer div .fa{
+	vertical-align: middle;
+	font-size: 1.3em;
+	padding: 1%;
+}
+
+footer div.social{
+	text-align: center;
+}
+footer .copyright{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+img.imgSection{
+	width: 200px !important;
+	height: 200px !important;
+}
+
+.menu{
+	width: 100%;
+	background: #66C2BE;
+	display: block;
+	position: fixed;
+	z-index: 1000;
+	display: none;
+}
+.menu ul li{
+	text-align: right;
+	list-style: none;
+	padding: 2% 3%;
+	border-bottom: 2px solid gainsboro;
+}
+.menu ul li a{
+	font-weight: bold;
+	color: #EE764F;
+}

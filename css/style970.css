@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Nunito|Nunito+Sans');
+
+@media all and (max-width : 970px)
+{
+
+	header #logo{
+		width: 80%;
+		text-align: center;
+	}
+
+	header #links{
+		display: none;
+
+	}
+	header #iconMenu{
+		width: 10%;
+		text-align: right;
+		display: block;
+	}
+
+	main #bannerHeader{
+		height: 350px
+	}
+
+	main #bannerHeader #fotoProfileBanner img{
+		width: 150px;
+		height: 150px;
+	}
+	main section{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+		align-content: stretch;
+		text-align: center;
+	}
+	main section .col-2{
+		width: 100%;
+		padding: 2% 0;
+	}
+	main section .col-2 .imgSection{
+		width: 150px;
+		height: 150px;
+	}
+	main section .col-2 .titleSection{
+		font-size: 1.5em;
+		font-family: 'Bungee Shade', cursive;
+	}
+	main section .col-2#listSkills ul li{
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: center;
+		align-content: center;
+	}
+
+	#contact-top{
+		display: inline !important;
+	}
+	
+	#contact-bottom{
+		display: none !important;
+	}
+
+	img.imgSection{
+		width: 150px !important;
+		height: 150px !important;
+	}
+
+	#portfolio #portfolioList li{
+		width: 45% ;
+		height: 200px;
+		display: inline-block;
+		margin: 1%;
+	}
+}

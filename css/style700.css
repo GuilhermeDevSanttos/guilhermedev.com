@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Nunito|Nunito+Sans');
+
+@media all and (max-width : 700px)
+{
+	header #logo .siteName{
+		font-size: 1.1em;
+	}
+
+	main #bannerHeader{
+		height: 250px;
+	}
+
+	main #bannerHeader #fotoProfileBanner img{
+		width: 100px;
+		height: 100px;
+	}
+
+	main #bannerHeader #textBanner{
+		font-size: .5em;
+	}
+	
+	#contact-top{
+		display: inline !important;
+	}
+	
+	#contact-bottom{
+		display: none !important;
+	}
+
+	img.imgSection{
+		width: 100px !important;
+		height: 100px !important;
+	}
+
+	#portfolio #portfolioList li{
+		width: 70% ;
+		height: 200px;
+		display: inline-block;
+		margin: 1%;
+	}
+
+	footer{
+		width: 100%;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	section #map{
+		padding: 0 !important;
+		text-align: center;
+		width: 100%;
+		height: 200px;
+	}
+	footer div .fa.fa-envelope-o{
+		display: none;
+	}
+}
