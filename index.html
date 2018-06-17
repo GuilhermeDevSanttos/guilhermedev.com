@@ -2,12 +2,13 @@
 <html lang="pt-br">
 <head>
 	<title>Guilherme Dev - Programador Web, Back-End, Front-End</title>
+	<meta charset="UTF-8">
 	<link rel="icon" type="image/png" href="img/logo.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style970.css">
 	<link rel="stylesheet" href="css/style700.css">
-	<link rel="stylesheet" href="node_modules/izimodal/css/iziModal.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -17,10 +18,9 @@
 		<ul>
 			<li style="border: none;" id="hide-menu"><a href="">X</a></li>
 			<li><a href="">Home</a></li>
-			<li><a href="">Blog</a></li>
-			<li><a href="">Habilidades</a></li>
-			<li><a href="">Portfólio</a></li>
-			<li><a href="">Contato</a></li>
+			<li><a href="#skills">Habilidades</a></li>
+			<li><a href="#portfolio">Portfólio</a></li>
+			<li><a href="#contact">Contato</a></li>
 		</ul>
 	</div>
 	<header>
@@ -30,11 +30,10 @@
 		</div>
 		<div id="links">
 			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">Blog</a></li>
-				<li><a href="">Habilidades</a></li>
-				<li><a href="">Portfólio</a></li>
-				<li><a href="">Contato</a></li>
+				<li><a href="#skills">Home</a></li>
+				<li><a href="#skills">Habilidades</a></li>
+				<li><a href="#portfolio">Portfólio</a></li>
+				<li><a href="#contact">Contato</a></li>
 			</ul>
 		</div>
 		<div id="iconMenu">
@@ -116,10 +115,11 @@
 				<strong class="titleSection" style="color: #000;">Portfólio</strong>
 			</div>
 			<ul id="portfolioList">
-				<li><a href="http://guilhermedev.com" target="_blank"><img src="img/guilhermedevcom.png"></a></li>
+				<li><a href="https://evolutionwap.herokuapp.com/" target="_blank"><img src="img/evolutionwap.png"></a></li>
+				<li><a href="http://eualfin.esy.es" target="_blank"><img src="img/eualfin.png"></a></li>
 			</ul>
 		</section>
-		<section id="skills" style="background: #ee764f; padding: 2% 0;">
+		<section id="contact" style="background: #ee764f; padding: 2% 0;">
 			<div class="col-2" id="contact-top">
 				<img src="img/chat.png" class="imgSection" alt="icone maleta de trabalho com uma roda dentada desenhada">
 				<strong class="titleSection">Contato</strong>
@@ -159,7 +159,7 @@
 			<section id="map">
 				<iframe id="map" 
 				  frameborder="0" style="border:0"
-				  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAAXbdxP6qU4qdclb_VMg88gKyX8MbY9S0
+				  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDWKenQCcQ8SPUbtVi3K9aI9DpQ1-61kJY
 				    &q=Sergipe+Barra+dos+Coqueiros+Livre+Sistemas" allowfullscreen>
 				</iframe>
 			</section>
@@ -171,28 +171,27 @@
 				</div>
 
 				<i class="fa fa-envelope-o"></i> guilhermedev@hotmail.com <br>
-				<i class="fa fa-phone"></i> 79 9 96732426
 			</div>
 			<div class="social">
 				<div class="title">
 					Redes Sociais
 				</div>
-				<a href=""><i class="fa fa-facebook-official"></i></a> 
-				<a href=""><i class="fa fa-twitter"></i></a> 
-				<a href=""><i class="fa fa-google-plus"></i></a>
+				<a href="https://www.facebook.com/guilherme.dasilvasantos.75"><i class="fa fa-facebook-official"></i></a> 
+				<a href="https://twitter.com/DevSanttos"><i class="fa fa-twitter"></i></a> 
+				<a href="https://github.com/GuilhermeDev98"><i class="fa fa-github"></i></a>
 			</div>
 			<br>
 			<div>
 				<strong>
 					<img src="img/logo.png" width="30px" height="30px"> <br>
-					Guilherme Santos &copy; - 2017
+					Guilherme Santos &copy; - 2018
 				</strong>
 			</div>
 		</footer>
 	</main>
-	<script src="node_modules/jquery/dist/jquery.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
 	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
-	<script src="node_modules/izimodal/js/iziModal.min.js" type="text/javascript"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js" type="text/javascript"></script>	
 	<script>
 		$(document).ready(function(){
 			$('#type').typeIt({
